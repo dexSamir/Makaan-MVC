@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E52B9A8-BFB1-4FFB-8C73-EE39CD044ABC}|Makaan.MVC\\Makaan.MVC.csproj|c:\\users\\i novbe\\desktop\\makaan-mvc\\makaan\\makaan.mvc\\areas\\admin\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E52B9A8-BFB1-4FFB-8C73-EE39CD044ABC}|Makaan.MVC\\Makaan.MVC.csproj|solutionrelative:makaan.mvc\\areas\\admin\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs*",
+              "RelativeToolTip": "Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswDIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:10:43.095Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

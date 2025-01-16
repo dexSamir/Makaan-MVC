@@ -1,0 +1,12 @@
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\bin\Debug\net8.0\Makaan.Core.deps.json
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\bin\Debug\net8.0\Makaan.Core.dll
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\bin\Debug\net8.0\Makaan.Core.pdb
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.csproj.AssemblyReference.cache
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.AssemblyInfoInputs.cache
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.AssemblyInfo.cs
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.csproj.CoreCompileInputs.cache
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.dll
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\refint\Makaan.Core.dll
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\Makaan.Core.pdb
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.Core\obj\Debug\net8.0\ref\Makaan.Core.dll
