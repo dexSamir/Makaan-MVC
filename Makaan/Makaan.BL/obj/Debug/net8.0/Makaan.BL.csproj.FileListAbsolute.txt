@@ -15,3 +15,4 @@ C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.BL\obj\Debug\net8.0\Makaan.BL.
 C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.BL\obj\Debug\net8.0\refint\Makaan.BL.dll
 C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.BL\obj\Debug\net8.0\Makaan.BL.pdb
 C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.BL\obj\Debug\net8.0\ref\Makaan.BL.dll
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.BL\obj\Debug\net8.0\Makaan.BL.sourcelink.json

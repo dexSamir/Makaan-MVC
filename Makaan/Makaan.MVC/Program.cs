@@ -1,4 +1,6 @@
+using Makaan.Core.Entities;
 using Makaan.DAL.Context;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Makaan.MVC
@@ -12,7 +14,16 @@ namespace Makaan.MVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<AppDbContext>(opt =>
-                opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSQL"))); 
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSQL")));
+
+            builder.Services.AddIdentity<User, IdentityRole>(opt =>
+            {
+                opt.Password.RequireNonAlphanumeric = true;
+                opt.Password.RequiredLength = 8;
+                opt.Password.RequireDigit = true;
+                opt.Password.RequireLowercase = true;
+                opt.Password.RequireUppercase = true;
+            }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDbContext>();
 
 
             var app = builder.Build();
@@ -31,6 +42,11 @@ namespace Makaan.MVC
             app.UseRouting();
 
             app.UseAuthorization();
+            app.MapControllerRoute(
+                name: "register",
+                pattern: "register",
+                defaults: new {controller = "Account", action = "Register" }
+            );
             app.MapControllerRoute(
                 name: "areas",
                 pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
