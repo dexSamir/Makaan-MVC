@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{1E52B9A8-BFB1-4FFB-8C73-EE39CD044ABC}|Makaan.MVC\\Makaan.MVC.csproj|c:\\users\\i novbe\\desktop\\makaan-mvc\\makaan\\makaan.mvc\\areas\\admin\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E52B9A8-BFB1-4FFB-8C73-EE39CD044ABC}|Makaan.MVC\\Makaan.MVC.csproj|solutionrelative:makaan.mvc\\areas\\admin\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B861A7A2-9EF8-4107-8990-AE278A33A846}|Makaan.BL\\Makaan.BL.csproj|c:\\users\\i novbe\\desktop\\makaan-mvc\\makaan\\makaan.bl\\vm\\agent\\agentupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B861A7A2-9EF8-4107-8990-AE278A33A846}|Makaan.BL\\Makaan.BL.csproj|solutionrelative:makaan.bl\\vm\\agent\\agentupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B861A7A2-9EF8-4107-8990-AE278A33A846}|Makaan.BL\\Makaan.BL.csproj|c:\\users\\i novbe\\desktop\\makaan-mvc\\makaan\\makaan.bl\\vm\\agent\\agentcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B861A7A2-9EF8-4107-8990-AE278A33A846}|Makaan.BL\\Makaan.BL.csproj|solutionrelative:makaan.bl\\vm\\agent\\agentcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgentUpdateVM.cs",
+              "DocumentMoniker": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.BL\\VM\\Agent\\AgentUpdateVM.cs",
+              "RelativeDocumentMoniker": "Makaan.BL\\VM\\Agent\\AgentUpdateVM.cs",
+              "ToolTip": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.BL\\VM\\Agent\\AgentUpdateVM.cs",
+              "RelativeToolTip": "Makaan.BL\\VM\\Agent\\AgentUpdateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:48:08.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AgentCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.BL\\VM\\Agent\\AgentCreateVM.cs",
+              "RelativeDocumentMoniker": "Makaan.BL\\VM\\Agent\\AgentCreateVM.cs",
+              "ToolTip": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.BL\\VM\\Agent\\AgentCreateVM.cs",
+              "RelativeToolTip": "Makaan.BL\\VM\\Agent\\AgentCreateVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:48:05.224Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs",
               "ToolTip": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs*",
               "RelativeToolTip": "Makaan.MVC\\Areas\\Admin\\Controllers\\AgentController.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAswDIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFMAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T13:10:43.095Z",
               "EditorCaption": ""

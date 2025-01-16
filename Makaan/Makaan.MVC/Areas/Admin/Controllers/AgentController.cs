@@ -21,25 +21,33 @@ public class AgentController(AppDbContext _context, IWebHostEnvironment _env) : 
     [HttpPost]
     public async Task<IActionResult> Create(AgentCreateVM vm)
     {
+        if (vm.Image != null)
+        {
+            if (!vm.Image.IsValidType("image"))
+                ModelState.AddModelError("File", "File must be image!");
+
+            if (!vm.Image.IsValidSize(3*1024))
+                ModelState.AddModelError("File", "File must be less than 5mb!");
+        }
         if (!ModelState.IsValid)
         {
-            ViewBag.Departments = await _context.Departments.Where(x => !x.IsDeleted).ToListAsync();
+            ViewBag.Department = await _context.Departments.Where(x => !x.IsDeleted).ToListAsync();
             return View();
         }
-        ViewBag.Departments = await _context.Departments.Where(x => !x.IsDeleted).ToListAsync();
         Agent agent = new Agent
         {
             Fullname = vm.Fullname,
             DepartmentId = vm.DepartmentId,
-            ProfileImageUrl =await vm.Image.UploadAysnc(_env.WebRootPath, "imgs", "agents" )
-        }; 
-        _context.Agents.Add(agent);
-        await  _context.SaveChangesAsync();
+            ProfileImageUrl = await vm.Image.UploadAysnc(_env.WebRootPath, "imgs", "agents"),
+        };
+        await _context.AddAsync(agent);
+        await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }
 
     public async Task<IActionResult> Update(int? id)
     {
+        ViewBag.Departments = await _context.Departments.Where(x => !x.IsDeleted).ToListAsync();
         if (!id.HasValue) return BadRequest();
 
         var data = await _context.Agents.FindAsync(id);
@@ -50,25 +58,40 @@ public class AgentController(AppDbContext _context, IWebHostEnvironment _env) : 
         vm.ExistingImageUrl = data.ProfileImageUrl;
         vm.DepartmentId = data.DepartmentId;
 
-        ViewBag.Departments = await _context.Departments.Where(x => !x.IsDeleted).ToListAsync();
         return View(vm);
     }
     [HttpPost]
     public async Task<IActionResult> Update(int? id, AgentUpdateVM vm)
     {
-        
-
         if (!id.HasValue) return BadRequest();
         var data = await _context.Agents.FindAsync(id);
         if (data == null) return NotFound();
+        if (!ModelState.IsValid) return View(vm);
 
-        ViewBag.Departments = await _context.Agents.Where(x => !x.IsDeleted).ToListAsync();
-        Agent agent = new Agent
+        if (vm.Image != null)
         {
-            Fullname = vm.Fullname,
-            DepartmentId = vm.DepartmentId,
-            ProfileImageUrl = await vm.Image?.UploadAysnc(_env.WebRootPath, "imgs", "agents")
-        };
+            if (!vm.Image.IsValidType("image"))
+            {
+                ModelState.AddModelError("File", "File type must be an image");
+                return View(vm);
+            }
+            if (!vm.Image.IsValidSize(300))
+            {
+                ModelState.AddModelError("File", "File must be less than 300kb");
+                return View(vm);
+            }
+
+            string oldFilePath = Path.Combine(Directory.GetCurrentDirectory(), _env.WebRootPath, "imgs", "agents", data.ProfileImageUrl);
+
+            if (System.IO.File.Exists(oldFilePath))
+                System.IO.File.Delete(oldFilePath);
+
+            string newFileName = await vm.Image.UploadAysnc(_env.WebRootPath, "imgs", "agents");
+            data.ProfileImageUrl = newFileName;
+        }
+        data.Fullname = vm.Fullname;
+        data.DepartmentId = vm.DepartmentId;
+
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
     }

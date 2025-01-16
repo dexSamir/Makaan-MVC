@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Makaan.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d752ca8d535a96e71178ed13f7e3324ee2a43cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Makaan.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Makaan.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

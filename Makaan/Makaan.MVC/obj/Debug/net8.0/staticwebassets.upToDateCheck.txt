@@ -2037,3 +2037,4 @@ wwwroot\assets\scss\bootstrap\scss\mixins\_visually-hidden.scss
 wwwroot\assets\scss\bootstrap\scss\utilities\_api.scss
 wwwroot\assets\scss\bootstrap\scss\vendor\_rfs.scss
 wwwroot\imgs\agents\003f3bq5.s4l.png
+wwwroot\imgs\agents\1zzbzacy.usj.png

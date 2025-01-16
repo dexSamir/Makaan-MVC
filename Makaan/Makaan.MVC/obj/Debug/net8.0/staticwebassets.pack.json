@@ -8161,6 +8161,10 @@
       "PackagePath": "staticwebassets\\imgs\\agents\\003f3bq5.s4l.png"
     },
     {
+      "Id": "C:\\Users\\I novbe\\Desktop\\Makaan-MVC\\Makaan\\Makaan.MVC\\wwwroot\\imgs\\agents\\1zzbzacy.usj.png",
+      "PackagePath": "staticwebassets\\imgs\\agents\\1zzbzacy.usj.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Makaan.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

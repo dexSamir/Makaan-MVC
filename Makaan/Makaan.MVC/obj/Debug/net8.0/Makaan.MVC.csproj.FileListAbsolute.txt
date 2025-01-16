@@ -157,3 +157,4 @@ C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.MVC\obj\Debug\net8.0\Makaan.MV
 C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.MVC\obj\Debug\net8.0\Makaan.MVC.genruntimeconfig.cache
 C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.MVC\obj\Debug\net8.0\ref\Makaan.MVC.dll
 C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.MVC\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\I novbe\Desktop\Makaan-MVC\Makaan\Makaan.MVC\obj\Debug\net8.0\Makaan.MVC.sourcelink.json
